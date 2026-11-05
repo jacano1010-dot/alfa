@@ -50,6 +50,34 @@ ul li {
     margin-bottom: 10px;
 }
 
+/* Estilos para la tabla de presupuestos */
+.budget-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.budget-table th, .budget-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.budget-table th {
+    background-color: #1b4d3e;
+    color: white;
+}
+
+.budget-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.note {
+    font-size: 0.85em;
+    color: #555;
+}
+
 footer {
     text-align: center;
     padding: 20px;
